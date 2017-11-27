@@ -40,11 +40,11 @@
                   title: { text: 'Column Chart' },
                   tooltip: {},
                   xAxis: {
-                      data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+                      data: ["Shirt", "Cardigan", "Chiffon Shirt", "Pants", "High Heels", "Sock"]
                   },
                   yAxis: {},
                   series: [{
-                      name: '销量',
+                      name: 'Sales',
                       type: 'bar',
                       data: [5, 20, 36, 10, 10, 20]
                     }]
@@ -55,7 +55,7 @@
                 this.chartBar.setOption({
                     title: {
                         text: 'Bar Chart',
-                        subtext: '数据来自网络'
+                        subtext: 'Data from the network'
                     },
                     tooltip: {
                         trigger: 'axis',
@@ -64,7 +64,7 @@
                         }
                     },
                     legend: {
-                        data: ['2011年', '2012年']
+                        data: ['2011', '2012']
                     },
                     grid: {
                         left: '3%',
@@ -78,16 +78,16 @@
                     },
                     yAxis: {
                         type: 'category',
-                        data: ['巴西', '印尼', '美国', '印度', '中国', '世界人口(万)']
+                        data: ['Brazil', 'Indonesia', 'USA', 'India', 'China', 'World Population(Millions)']
                     },
                     series: [
                         {
-                            name: '2011年',
+                            name: '2011',
                             type: 'bar',
                             data: [18203, 23489, 29034, 104970, 131744, 630230]
                         },
                         {
-                            name: '2012年',
+                            name: '2012',
                             type: 'bar',
                             data: [19325, 23438, 31000, 121594, 134141, 681807]
                         }
@@ -104,7 +104,7 @@
                         trigger: 'axis'
                     },
                     legend: {
-                        data: ['邮件营销', '联盟广告', '搜索引擎']
+                        data: ['Mail marketing', 'Affiliate Advertising', 'Search Engine']
                     },
                     grid: {
                         left: '3%',
@@ -115,28 +115,28 @@
                     xAxis: {
                         type: 'category',
                         boundaryGap: false,
-                        data: ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
+                        data: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
                     },
                     yAxis: {
                         type: 'value'
                     },
                     series: [
                         {
-                            name: '邮件营销',
+                            name: 'Mail marketing',
                             type: 'line',
-                            stack: '总量',
+                            stack: 'Total Amount',
                             data: [120, 132, 101, 134, 90, 230, 210]
                         },
                         {
-                            name: '联盟广告',
+                            name: 'Affiliate Advertising',
                             type: 'line',
-                            stack: '总量',
+                            stack: 'Total Amount',
                             data: [220, 182, 191, 234, 290, 330, 310]
                         },
                         {
-                            name: '搜索引擎',
+                            name: 'Search Engine',
                             type: 'line',
-                            stack: '总量',
+                            stack: 'Total Amount',
                             data: [820, 932, 901, 934, 1290, 1330, 1320]
                         }
                     ]
@@ -147,7 +147,7 @@
                 this.chartPie.setOption({
                     title: {
                         text: 'Pie Chart',
-                        subtext: '纯属虚构',
+                        subtext: 'Purely Fictious',
                         x: 'center'
                     },
                     tooltip: {
@@ -157,7 +157,7 @@
                     legend: {
                         orient: 'vertical',
                         left: 'left',
-                        data: ['直接访问', '邮件营销', '联盟广告', '视频广告', '搜索引擎']
+                        data: ['Direct Interview', 'Mail marketing', 'Affiliate Advertising', 'Video Ad', 'Search Engine']
                     },
                     series: [
                         {
@@ -166,11 +166,11 @@
                             radius: '55%',
                             center: ['50%', '60%'],
                             data: [
-                                { value: 335, name: '直接访问' },
-                                { value: 310, name: '邮件营销' },
-                                { value: 234, name: '联盟广告' },
-                                { value: 135, name: '视频广告' },
-                                { value: 1548, name: '搜索引擎' }
+                                { value: 335, name: 'Direct Interview' },
+                                { value: 310, name: 'Mail marketing' },
+                                { value: 234, name: 'Affiliate Advertising' },
+                                { value: 135, name: 'Video Ad' },
+                                { value: 1548, name: 'Search Engine' }
                             ],
                             itemStyle: {
                                 emphasis: {

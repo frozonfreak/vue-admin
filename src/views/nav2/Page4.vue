@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>vuex 测试</h1>
+    <h1>vuex Test</h1>
     Clicked: {{ getCount }} times
     <button @click="increment">+</button>
     <button @click="decrement">-</button>
